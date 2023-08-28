@@ -19,4 +19,4 @@ for network_name in network_names_list:
     print(network_name)
 
 
-send_mail("dex210199@gmail.com", "dexter2013", networks)
+send_mail("$Email ID", "$PASS", networks)
