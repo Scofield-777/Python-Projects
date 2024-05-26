@@ -21,7 +21,6 @@ This Python script allows you to sniff HTTP packets on a specified network inter
 5. Run the script using the following command:
 
   ```bash
-  Copy code
   sudo python http_sniffer.py
 ```
 Note: You need to run the script with sudo privileges to access the network interface and capture HTTP packets.
